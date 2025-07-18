@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "coverimage": "https://images.unsplash.com/photo-1506765515384-028b60a970df",
+    "author": "liam parker",
+    "authorpic": "https://randomuser.me/api/portraits/men/32.jpg",
+    "title": "the rise of ai in everyday life",
+    "posteddate": "July 10, 2025",
+    "readingtime": 5,
+    "hashtags": ["#ai", "#techtrends", "#future"]
+  },
+  {
+    "id": "2",
+    "coverimage": "https://images.unsplash.com/photo-1504198266287-1659872e6590",
+    "author": "sofia mendes",
+    "authorpic": "https://randomuser.me/api/portraits/women/44.jpg",
+    "title": "minimalism: the art of less",
+    "posteddate": "July 14, 2025",
+    "readingtime": 3,
+    "hashtags": ["#minimalism", "#lifestyle", "#design"]
+  },
+  {
+    "id": "3",
+    "coverimage": "https://images.unsplash.com/photo-1622543722093-7d2ffb1a00ae",
+    "author": "arjun mehta",
+    "authorpic": "https://randomuser.me/api/portraits/men/65.jpg",
+    "title": "decoding the blockchain revolution",
+    "posteddate": "July 16, 2025",
+    "readingtime": 7,
+    "hashtags": ["#blockchain", "#crypto", "#innovation"]
+  },
+  {
+    "id": "4",
+    "coverimage": "https://images.unsplash.com/photo-1525097487452-6278ff080c31",
+    "author": "emily zhang",
+    "authorpic": "https://randomuser.me/api/portraits/women/68.jpg",
+    "title": "healthy habits for a better mind",
+    "posteddate": "July 12, 2025",
+    "readingtime": 4,
+    "hashtags": ["#wellness", "#mentalhealth", "#habits"]
+  },
+  {
+    "id": "5",
+    "coverimage": "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70",
+    "author": "noah williams",
+    "authorpic": "https://randomuser.me/api/portraits/men/22.jpg",
+    "title": "mastering remote productivity",
+    "posteddate": "July 8, 2025",
+    "readingtime": 6,
+    "hashtags": ["#remotework", "#productivity", "#workfromhome"]
+  }
+]
