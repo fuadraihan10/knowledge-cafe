@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { FaBeer } from 'react-icons/fa';
 import { FaRegBookmark } from "react-icons/fa6";
-export default function Blog({blog, addBookmark}) {
+export default function Blog({blog, addBookmark, calculateReadingTime}) {
 
     const {title,coverimage,readingtime,author,authorpic,posteddate,hashtags} = blog
 
@@ -9,7 +9,7 @@ export default function Blog({blog, addBookmark}) {
 
     return (
         <div className="mb-20">
-            <img src={coverimage} alt={coverimage} className='w-full mb-8'/>
+            <img src={blog.coverimage} alt={coverimage} className='w-full mb-8'/>
             <div className='flex justify-between items-center'>
                 <div className='flex items-center gap-4'>
                     <img className="w-30" src={authorpic} alt="" />
@@ -32,10 +32,14 @@ export default function Blog({blog, addBookmark}) {
                     ))
                 }
             </p>
+            <button onClick={ () => (
+                calculateReadingTime(blog.id,blog)
+            )}>mark as read</button>
         </div>
     )
 }
 
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
-    }
+    blog: PropTypes.object.isRequired,
+    addBookmark: PropTypes.func.isRequired
+}

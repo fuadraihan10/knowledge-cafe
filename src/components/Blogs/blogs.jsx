@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Blog from "../blog/blog.jsx";
+import PropTypes from 'prop-types';
 
-export default function Blogs({addBookmark}) {
+export default function Blogs({addBookmark,calculateReadingTime}) {
 
     const [blogs, setBlogs] = useState([]);
 
@@ -20,7 +21,8 @@ export default function Blogs({addBookmark}) {
             blogs.map(blog => <Blog
                  key={blog.id}
                   blog={blog}
-                  addBookmark={addBookmark}>
+                  addBookmark={addBookmark}
+                  calculateReadingTime={calculateReadingTime}>
                   </Blog>)
         }
     </div>
@@ -28,3 +30,6 @@ export default function Blogs({addBookmark}) {
 }
 
 
+Blogs.propTypes = {
+    addBookmark: PropTypes.func.isRequired
+}

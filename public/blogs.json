@@ -1,52 +1,52 @@
 [
   {
     "id": "1",
-    "coverimage": "https://images.unsplash.com/photo-1506765515384-028b60a970df",
-    "author": "liam parker",
-    "authorpic": "https://randomuser.me/api/portraits/men/32.jpg",
-    "title": "the rise of ai in everyday life",
-    "posteddate": "July 10, 2025",
+    "coverimage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?crop=entropy&cs=tinysrgb&fit=crop&h=630&w=1120",
+    "author": "Emily Carter",
+    "authorpic": "https://randomuser.me/api/portraits/women/44.jpg",
+    "title": "Exploring Design Systems in 2025",
+    "posteddate": "2025-07-18T10:00:00Z",
     "readingtime": 5,
-    "hashtags": ["#ai", "#techtrends", "#future"]
+    "hashtags": ["#design", "#ux", "#systems"]
   },
   {
     "id": "2",
-    "coverimage": "https://images.unsplash.com/photo-1504198266287-1659872e6590",
-    "author": "sofia mendes",
-    "authorpic": "https://randomuser.me/api/portraits/women/44.jpg",
-    "title": "minimalism: the art of less",
-    "posteddate": "July 14, 2025",
-    "readingtime": 3,
-    "hashtags": ["#minimalism", "#lifestyle", "#design"]
+    "coverimage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=crop&h=630&w=1120",
+    "author": "Lucas Martin",
+    "authorpic": "https://randomuser.me/api/portraits/men/32.jpg",
+    "title": "JavaScript Frameworks: The 2025 Update",
+    "posteddate": "2025-07-16T15:30:00Z",
+    "readingtime": 7,
+    "hashtags": ["#javascript", "#react", "#webdev"]
   },
   {
     "id": "3",
-    "coverimage": "https://images.unsplash.com/photo-1622543722093-7d2ffb1a00ae",
-    "author": "arjun mehta",
-    "authorpic": "https://randomuser.me/api/portraits/men/65.jpg",
-    "title": "decoding the blockchain revolution",
-    "posteddate": "July 16, 2025",
-    "readingtime": 7,
-    "hashtags": ["#blockchain", "#crypto", "#innovation"]
+    "coverimage": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?crop=entropy&cs=tinysrgb&fit=crop&h=630&w=1120",
+    "author": "Sofia Ahmed",
+    "authorpic": "https://randomuser.me/api/portraits/women/55.jpg",
+    "title": "Machine Learning Trends to Watch",
+    "posteddate": "2025-07-14T08:45:00Z",
+    "readingtime": 6,
+    "hashtags": ["#ai", "#ml", "#trends"]
   },
   {
     "id": "4",
-    "coverimage": "https://images.unsplash.com/photo-1525097487452-6278ff080c31",
-    "author": "emily zhang",
-    "authorpic": "https://randomuser.me/api/portraits/women/68.jpg",
-    "title": "healthy habits for a better mind",
-    "posteddate": "July 12, 2025",
+    "coverimage": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?crop=entropy&cs=tinysrgb&fit=crop&h=630&w=1120",
+    "author": "David Zhang",
+    "authorpic": "https://randomuser.me/api/portraits/men/76.jpg",
+    "title": "Scaling Your Backend with Node.js",
+    "posteddate": "2025-07-12T19:20:00Z",
     "readingtime": 4,
-    "hashtags": ["#wellness", "#mentalhealth", "#habits"]
+    "hashtags": ["#nodejs", "#backend", "#scale"]
   },
   {
     "id": "5",
-    "coverimage": "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70",
-    "author": "noah williams",
-    "authorpic": "https://randomuser.me/api/portraits/men/22.jpg",
-    "title": "mastering remote productivity",
-    "posteddate": "July 8, 2025",
-    "readingtime": 6,
-    "hashtags": ["#remotework", "#productivity", "#workfromhome"]
+    "coverimage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=crop&h=630&w=1120",
+    "author": "Ariana Kim",
+    "authorpic": "https://randomuser.me/api/portraits/women/68.jpg",
+    "title": "A Beginner’s Guide to DevOps",
+    "posteddate": "2025-07-10T11:10:00Z",
+    "readingtime": 8,
+    "hashtags": ["#devops", "#cloud", "#ci"]
   }
 ]
