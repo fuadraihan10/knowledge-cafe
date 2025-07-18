@@ -14,17 +14,18 @@ export default function Blogs({addBookmark,calculateReadingTime}) {
 
     },[]);
   return (
-    
     <div className="md:w-2/3">
-        <h1 className="text-4xl font-bold">Blogs: {blogs.length}</h1>
-        {
-            blogs.map(blog => <Blog
-                 key={blog.id}
-                  blog={blog}
-                  addBookmark={addBookmark}
-                  calculateReadingTime={calculateReadingTime}>
-                  </Blog>)
-        }
+        <h1 className="text-xl font-medium text-gray-800 mb-6">Articles ({blogs.length})</h1>
+        <div className="space-y-6">
+            {blogs.map(blog => (
+                <Blog
+                    key={blog.id}
+                    blog={blog}
+                    addBookmark={addBookmark}
+                    calculateReadingTime={calculateReadingTime}
+                />
+            ))}
+        </div>
     </div>
   )
 }

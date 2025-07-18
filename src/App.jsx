@@ -22,14 +22,11 @@ function App() {
 
   return (
     <>
-      <Header></Header>
-      <div className="md:flex max-w-7xl mx-auto">
-        <Blogs addBookmark={addBookmark} calculateReadingTime = {calculateReadingTime}></Blogs>
-        <Bookmarks bookmarks={bookmarks} readingtime={readingtime}></Bookmarks>
+      <Header />
+      <div className="flex flex-col md:flex-row max-w-5xl mx-auto mt-8 gap-6 p-4 bg-white rounded-lg border border-gray-200">
+        <Blogs addBookmark={addBookmark} calculateReadingTime={calculateReadingTime} />
+        <Bookmarks bookmarks={bookmarks} readingtime={readingtime} />
       </div>
-
-      
-
     </>
   )
 }
